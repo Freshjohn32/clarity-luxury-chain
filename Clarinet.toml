@@ -4,6 +4,14 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.authentication-system]
+path = "contracts/authentication-system.clar"
+depends_on = []
+
+[contracts.luxury-marketplace]
+path = "contracts/luxury-marketplace.clar"
+depends_on = []
+
 [contracts.luxury-tracker]
 path = "contracts/luxury-tracker.clar"
 depends_on = []
